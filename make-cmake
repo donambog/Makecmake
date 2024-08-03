@@ -1,0 +1,12 @@
+#!/bin/bash 
+echo "Start build system..."
+mkdir -p build
+cd build 
+echo "Start build generation.."
+cmake ..
+make
+cd ..
+echo "build finished!"
+
+
+
