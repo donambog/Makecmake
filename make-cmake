@@ -1,13 +1,17 @@
-#!/bin/bash 
-echo "Start build system..."
+#!/bin/bash
+#export help to pass variable between CMakeLists and this bash script. So I can set the mode as 1st arg(debug or release) of make-cmake.sh
+export mode=$1
+
+echo "Start build generation..."
 mkdir -p build
 cd build 
-echo "Start build generation.."
 cmake ..
+echo "Start the compilation 0%"
 make
+#take back the executable to root
 cp sExch ../
 cd ..
-echo "build finished!"
+echo "Compilation finished 100%"
 
 
 
