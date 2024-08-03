@@ -5,6 +5,7 @@ cd build
 echo "Start build generation.."
 cmake ..
 make
+cp sExch ../
 cd ..
 echo "build finished!"
 
