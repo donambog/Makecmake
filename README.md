@@ -1,6 +1,6 @@
 # Makecmake
 Progress with MAKE-CMAKE
-Let with my previous code of stock data https://github.com/donambog/Interview.git. We will consider my owrking code in stockmain.cpp 
+Let with my previous code of stock data from FX(https://github.com/donambog/Interview.git). We will consider my owrking code in stockmain.cpp 
 My new goal is to refactor everything:
   -  Differents *.h/*.cpp/CMakeLists and makefiles.
   -  Volume calucation will become a library
